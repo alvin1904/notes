@@ -2,6 +2,32 @@ CSS HELPER SITES
 
 0. [Templates List](https://github.com/bradtraversy/design-resources-for-developers#ui-graphics)
 
+
+CSS generators 📢📢
+
+- coolbackgrounds.io
+- css3buttongenerator.com
+- neumorphism.io
+- glassmorphism.com
+- css3generator.com
+- Fancy-border-radius.com
+- bennettfeely.com/clippy
+- cssgradient.io
+- blobmaker.app
+- getwaves.io
+- cssgenerator.org
+- csssbuttongenerator.com
+- svgator.com
+- cssbuttoncreator.com
+- cssgenerators.net
+- svgbackgrounds.com
+- bgjar.com
+- cssboxshadow.com
+- css3generator.com
+- cssfiltergenerator.com
+- neumorphic.design
+
+
 1. [Coolers](https://coolors.co/)
 2. [CSS mesh gradient generator](http://csshero.org/mesher/)
 3. [Generate diff backgrounds-Haikei](https://app.haikei.app/)
