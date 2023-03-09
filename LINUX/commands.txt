@@ -1,0 +1,4 @@
+df -h
+
+dpkg-query -Wf '${Installed-Size}\t${Package}\n' | sort -n
+For displaying sorted list of installed applications.
