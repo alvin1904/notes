@@ -1,3 +1,4 @@
+```
 *, *:before, *:after
     box-sizing: border-box
 
@@ -35,3 +36,4 @@ table
 input
     -webkit-appearance: none
     border-radius: 0
+```
