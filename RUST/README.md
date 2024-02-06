@@ -21,6 +21,6 @@ https://discord.gg/mCY2bBmDKZ
 
 Have fun, and good luck!
 
-Also one thing before you go. The video playlists: 
-Memory Management: https://youtube.com/playlist?list=PLai5B987bZ9BnS7dBlTF9HRop55vYUL7r
-Rust playlist: https://youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8
+Also one thing before you go. The video playlists:<br />
+Memory Management: https://youtube.com/playlist?list=PLai5B987bZ9BnS7dBlTF9HRop55vYUL7r<br />
+Rust playlist: https://youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8<br />
