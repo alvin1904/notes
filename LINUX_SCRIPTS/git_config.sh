@@ -10,7 +10,7 @@ git config --global user.email "$email"
 git config --global init.defaultBranch main
 git config --global alias.stash 'stash --all'
 git config --global branch.sort -committerdate
-git config --global help.autocorrect 20
+git config --global help.autocorrect 05
 git config --global commit.verbose true
 git config --global --list
 
