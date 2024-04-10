@@ -19,9 +19,12 @@ fi
 # Install additional software using yay
 yay -S --noconfirm google-chrome brave-bin kitty
 yay -S --noconfirm telegram-desktop
+yay -S --noconfirm visual-studio-code-bin
 
 echo "Installing nvm"
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+nvm install --lts
 
 
 # List of Visual Studio Code extension names to install
