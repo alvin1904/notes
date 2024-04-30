@@ -36,6 +36,7 @@ body {
 /* Reapply the pointer cursor for anchor tags */
 a,
 button {
+  all: unset;
   cursor: pointer;
   text-decoration: none;
   color: inherit;
@@ -66,7 +67,9 @@ svg {
 /* Safari - solving issue when using user-select:none on the <body> text input doesn't working */
 input,
 textarea {
+  all: unset;
   -webkit-user-select: auto;
+  user-select: auto;
   outline-color: transparent;
   border: 0;
 }
