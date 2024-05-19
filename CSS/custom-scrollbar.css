@@ -21,3 +21,9 @@
 ::-webkit-scrollbar-button {
   display: none;
 }
+
+/* Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #ddd #f5f5f5;
+}
