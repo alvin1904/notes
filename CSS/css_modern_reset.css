@@ -140,6 +140,6 @@ textarea {
   transition: all 0.25s ease-in-out;
 }
 *::selection {
-  background: black
+  background: black;
   color: white;
 }
