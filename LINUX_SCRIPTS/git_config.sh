@@ -28,19 +28,22 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 
 # Output the public key for the user to copy and paste to their Git account
-echo "Here is your public key:"
+echo "Here is your public key. Copy and paste this into your Github settings."
 cat ~/.ssh/id_ed25519.pub
 
-read -p "Have you pasted the key to github account? (y/n) " answer
-if [[ "$answer" == [yY] ]]; then
+read -p "Have you pasted the key to your GitHub account? (y/n) " answer
+if [[ "$answer" == [yY]* || -z "$answer" ]]; then
+    if [[ -z "$answer" ]]; then
+        echo "No response provided. Assuming 'yes'."
+    fi
     echo "Continuing..."
     ssh -T git@github.com
-    ssh -T git@github.com
-elif [[ "$answer" == [nN] ]]; then
+elif [[ "$answer" == [nN]* ]]; then
     echo "Exiting..."
 else
-    echo "Invalid input. Exiting..."
+    echo "Error: Invalid input. Exiting..."
 fi
 
-echo "Press any key to continue..."
+
+echo "Setup completed successfully. Press any key to continue..."
 read -n 1 -s -r -p ""
