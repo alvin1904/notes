@@ -1,3 +1,11 @@
+bash
+```
+npm i -D prettier
+```
+```
+npm i -D prettier prettier-plugin-tailwindcss
+```
+
 .prettierrc.json
 ```
 {
@@ -31,4 +39,16 @@ yarn.lock
 package-lock.json
 public
 .github
+.vscode
+.prettierrc.*
 ```
+
+package.json E
+```
+,
+    "format": "prettier --write ."
+```
+```
+    "format": "prettier --write ."
+```
+
